@@ -1,0 +1,39 @@
+# 🚩 TryHackMe - Metasploit: The Basics Write-up
+
+## 📌 Overview
+- **Platform:** [TryHackMe](https://tryhackme.com/)
+- **Room:** Metasploit: The Basics
+- **Category:** Network Security & Penetration Testing
+- **OS / Lab Environment:** Kali Linux
+
+---
+
+## 🎯 Summary & Learnings
+In this room, I covered the foundational concepts of the **Metasploit Framework (MSF)**. I gained hands-on experience in initializing the framework, navigating its architecture, executing modules, and leveraging its features for vulnerability exploitation and post-exploitation.
+
+### Key Concepts Covered:
+- **MSF Architecture:** Understanding Modules (Exploits, Payloads, Auxiliary, Encoders, Nops, Post).
+- **Core Commands:** Navigating `msfconsole`, managing global/local options (`set`, `setg`), and searching for specific exploits.
+- **Payload Selection:** Differentiating between Staged (`shell/reverse_tcp`) and Non-staged (`shell_reverse_tcp`) payloads.
+- **Session Management:** Backgrounding sessions and managing active Meterpreter sessions.
+
+---
+
+## 🛠️ Essential Commands Reference
+
+| Action | Command / Description |
+| :--- | :--- |
+| **Launch Console** | `msfconsole` |
+| **Search Module** | `search <vulnerability / service / CVE>` |
+| **Select Module** | `use <module_path>` |
+| **View Info** | `info` or `show options` |
+| **Set Target/Payload** | `set RHOSTS <IP>` / `set LHOST <IP>` |
+| **Execute Exploit** | `exploit` or `run` |
+| **Background Session**| `Ctrl + Z` or `background` |
+| **List Sessions** | `sessions -l` |
+| **Interact Session** | `sessions -i <ID>` |
+
+---
+
+## 📖 Detailed Solutions & Walkthrough
+👉 Check the step-by-step room answers in the [Solution File](./solution.md).
